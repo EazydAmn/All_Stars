@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150D0B"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginBottom="450dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon" />
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="260dp"
+        android:src="@drawable/nadpis" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:hint="E-mail"
+        android:textColorHint="#AFAFAF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="324dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:hint="Пароль"
+        android:textColorHint="#AFAFAF"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"/>
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="19dp"
+        android:text="Регистрация"
+        android:onClick="registr"
+        />
+    <Button
+        android:layout_width="328dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="79dp"
+        android:text="Войти"
+        android:onClick="vhod"
+
+        />
+</FrameLayout>

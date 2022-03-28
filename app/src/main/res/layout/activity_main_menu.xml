@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu"
+    android:background="#150D0B"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00FFFFFF"
+            android:gravity="center"
+            android:text="Выйти"
+            android:onClick="back"/>
+
+        <Button
+            android:layout_height="44dp"
+            android:layout_width="134dp"
+            android:backgroundTint="#43DED0"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="293dp"
+            android:text="Смотреть"
+            android:onClick="kino"
+            />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="450dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/main_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="В тренде"
+            android:textColor="#43DED0"
+            android:textSize="24dp"
+            android:layout_marginTop="17dp"/>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:src="@drawable/lucifer" />
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/got" />
+                <ImageView
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:src="@drawable/educ" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:src="@drawable/educ" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="144dp"
+                android:src="@drawable/educ" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="Новое"
+            android:textColor="#43DED0"
+            android:textSize="24dp"
+            android:layout_marginTop="17dp"
+            />
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/reasons"/>
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/reasons" />
+                <ImageView
+                    android:layout_width="240dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/reasons" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="Для вас"
+            android:textColor="#43DED0"
+            android:textSize="24dp"
+            android:layout_marginTop="17dp"
+            />
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="SpeakableTextPresentCheck">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/westworld"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/jessica"/>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/kostyan"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/kostyan"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="144dp"
+                    android:src="@drawable/kostyan"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    </FrameLayout>
+</ScrollView>
