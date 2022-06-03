@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeforeLoginScreen"
+    android:background="#FA4A0C"
+    android:animateLayoutChanges="false"
+    >
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="400dp"
+        android:src="@drawable/ililustration1"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="80dp"
+        />
+    <TextView
+        android:layout_width="293dp"
+        android:layout_height="103dp"
+        android:layout_gravity="center"
+        android:text="Fastest Delivery 24/7"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="160dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="120dp"
+        android:layout_marginRight="3dp"
+        android:orientation="horizontal"
+        android:outlineAmbientShadowColor="#CC1212">
+
+        <RadioButton
+            android:id="@+id/act1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleX="0.33"
+            android:scaleY="0.33"
+            android:buttonTint="#FFFFFF"
+            android:enabled="true"
+            />
+
+        <RadioButton
+            android:id="@+id/act2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleX="0.33"
+            android:scaleY="0.33"
+            android:buttonTint="#FFFFFF"
+            android:enabled="false"
+            />
+    </RadioGroup>
+</FrameLayout>

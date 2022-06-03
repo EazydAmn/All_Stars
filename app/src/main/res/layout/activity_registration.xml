@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    tools:context=".Registration">
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="217dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/rectreg" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/cooklog" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="236dp"
+            android:text="Email:"
+            android:textColor="#66000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/emailRegistr"
+            android:layout_width="368dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="260dp"
+            android:keyboardNavigationCluster="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="336dp"
+            android:text="Password:"
+            android:textColor="#66000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/passwordRegistr"
+            android:layout_width="368dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="360dp"
+            android:keyboardNavigationCluster="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="436dp"
+            android:text="Full name:"
+            android:textColor="#66000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/fullNameRegistr"
+            android:layout_width="368dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="460dp"
+            android:keyboardNavigationCluster="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="536dp"
+            android:text="Phone number:"
+            android:textColor="#66000000"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/numberRegistr"
+            android:layout_width="368dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="565dp"
+            android:keyboardNavigationCluster="true" />
+
+        <Button
+            android:layout_width="368dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="127dp"
+            android:backgroundTint="#FA4A0C"
+            android:onClick="pashemRegistr"
+            android:text="Registration"
+            android:textSize="17dp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:layout_width="368dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#FA4A0C"
+            android:onClick="back"
+            android:text="Cancel"
+            android:textSize="17dp"
+            app:cornerRadius="30dp" />
+</FrameLayout>

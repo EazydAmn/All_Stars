@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreenWithInternet"
+    android:background="#FA4A0C"
+    android:id="@+id/viewflipper2">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="415dp"
+            android:layout_height="400dp"
+            android:src="@drawable/illustration"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="560dp"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="30dp"
+            android:text="Sing up"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            />
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="69dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="560dp"
+            android:backgroundTint="@color/white"
+            app:cornerRadius="30dp"
+            android:text="Sing up"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            />
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="70dp"
+            android:layout_marginRight="3dp"
+            android:orientation="horizontal"
+            android:outlineAmbientShadowColor="#CC1212">
+
+            <RadioButton
+                android:id="@+id/act11"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleX="0.33"
+                android:scaleY="0.33"
+                android:buttonTint="#FFFFFF"
+                android:enabled="false"
+                />
+
+            <RadioButton
+                android:id="@+id/act21"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleX="0.33"
+                android:scaleY="0.33"
+                android:buttonTint="#FFFFFF"
+                android:enabled="true"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="Skip Authorization"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginBottom="24dp"
+            />
+    </FrameLayout>
+</ViewFlipper>
